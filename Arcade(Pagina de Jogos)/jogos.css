@@ -1,0 +1,229 @@
+*{
+  margin: 0;
+  padding: 0;
+  background-color: #120F26;  
+}
+.card-fotojogo{  
+  position: relative;
+  width: 550px;
+  height: 550px;
+  border-radius: 12px;
+  border: 2px solid;
+  border-color: black;
+  background-color: white;  
+  margin: 15px;  
+}
+.card-info01{
+  width: 700px;
+  height: 339px;
+  text-align: center;  
+  font-size: 20px; 
+  padding: 5px;
+  border-radius: 12px;
+  border: 2px solid;
+  border-color: black;
+  background-color: #1e193d;    
+  margin: 15px;  
+}
+.card-info02{
+  width: 700px;
+  height: 339px;
+  text-align: center;
+  font-size: 14px; 
+  padding: 5px;
+  border-radius: 12px;
+  border: 2px solid;
+  border-color: black;
+  background-color: #1e193d;    
+  margin: 15px;  
+}
+.card-info0{
+  width: 700px;
+  height: 339px;
+  text-align: center;
+  font-size: 25px; 
+  padding: 5px;
+  border-radius: 12px;
+  border: 2px solid;
+  border-color: black;
+  background-color: #1e193d;    
+  margin: 15px;  
+}
+.card-titulo{
+  width: 700px;
+  height: 40px;
+  text-align: center;
+  padding: 5px;
+  border-radius: 12px;
+  background-color: gray;
+  border: 2px solid;
+  border-color: black;  
+  margin: 15px;  
+}
+.container{
+  display: flex;  
+  justify-content: space-between;
+}
+.card-coments{
+  position: relative;
+  width: 550px;
+  height: 150px;
+  text-align: center;
+  padding: 5px;
+  border-radius: 12px;
+  border: 2px solid;
+  border-color: black;
+  background-color: white;    
+  margin: 15px;  
+}
+.comentario{
+  width: 94%;
+  height: 55%;
+  text-align: center;
+  padding: 5px;
+  border-radius: 12px;
+  border: 2px solid;
+  border-color: black;
+  background-color: white;    
+  margin: 15px; 
+}
+.card-user{
+  width: 550px;
+  height: 40px;
+  text-align: center;
+  padding: 5px;
+  border-radius: 12px;
+  background-color: gray;  
+  border: 2px solid;
+  border-color: black;  
+  margin: 15px;  
+}
+@media(max-width: 1000px){
+  .container{
+    flex-direction: column;    
+  }
+  .card-fotojogo{
+    width: 700px;
+    
+  }
+  .card-coments{
+    width: 700px;
+    
+  }
+  .card-user{
+    width: 700px;
+    
+  }
+}
+.card-titulo h7{
+  background-color: gray;
+}
+.card-user h7{
+  background-color: gray;
+}
+.card-info01 h7{
+  background-color: #1e193d;
+  color: white;  
+}
+.card-info02 h7{
+  background-color: #1e193d;
+  color: white;
+}
+.card-info02 img{
+  width: 25%;
+  height: 35%;
+  border-radius: 12px;  
+}
+.card-info0 iframe{
+  width: 90%;
+  height: 90%;  
+}
+.card-fotojogo img{
+  width: 100%;
+  height: 100%;
+  border-radius: 12px;
+  border: 2px solid;
+  border-color: black;
+}
+/*MENU NAV*/
+.nav-item {
+  width: 120px;
+  display: flex;
+  justify-content: center;
+  margin-right: 20px;
+  border-radius: 6px;
+  background-color: #1e193d;
+}
+#p-nav {
+  margin: auto;
+  color: white;
+  width: 120px;
+  padding: 6px;
+  border-radius: 6px;
+  transition: 0.3s ease;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#btn-search {
+  border: 1px solid #F2A30F;
+  color: #F2A30F;
+  transition: 0.3s ease;    
+}
+#btn-search:hover, #p-nav:hover {
+  background-color: #F2A30F;
+  color: black;
+}
+/*FOOTER*/
+.plataformas {
+  display: flex;
+  justify-content: center; 
+  cursor: pointer;
+}
+.contato {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.empresa {
+  color: #F2A30F;
+  font-size: 50px;
+}
+.mais-info {
+  color: white;
+  margin-top: 15px;
+}
+.direitos {
+  color: white;
+  margin-top: 30px;
+}
+.botao {      
+  width: 150px;
+  height: 40px;
+  text-align: center;    
+  padding: 5px;
+  border-radius: 12px;
+  background-color: white;  
+  border: 2px solid;
+  border-color: black;  
+  margin: 15px;
+  position: absolute;
+    bottom: -9px;
+    right: 10px;  
+}
+.btnNome{
+  width: 150px;
+  height: 40px;
+  text-align: center;    
+  padding: 5px;
+  border-radius: 12px;
+  background-color: white;  
+  border: 2px solid;
+  border-color: black;  
+  margin: 15px;
+  position: absolute;
+    bottom: -9px;
+    left: 5px;
+    -webkit-text-fill-color: black;    
+}
